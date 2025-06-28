@@ -1,0 +1,70 @@
+{
+  "name": "voice-todo-app",
+  "version": "1.0.0",
+  "description": "A modern, accessible to-do list application with voice recognition using the Web Speech API",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server",
+    "test": "echo \"No tests specified\" && exit 0",
+    "build": "echo \"No build process required for static app\" && exit 0",
+    "deploy": "echo \"Deploy to your preferred static hosting service\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/voice-todo-app.git"
+  },
+  "keywords": [
+    "todo",
+    "voice-recognition",
+    "speech-api",
+    "accessibility",
+    "productivity",
+    "javascript",
+    "web-app",
+    "pwa",
+    "hands-free",
+    "responsive"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "url": "https://yourwebsite.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/voice-todo-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/voice-todo-app#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions",
+    "iOS >= 12",
+    "Android >= 8"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "files": [
+    "index.html",
+    "css/",
+    "js/",
+    "README.md",
+    "screenshots/"
+  ],
+  "directories": {
+    "doc": "./README.md"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/yourusername"
+  },
+  "config": {
+    "port": "8000",
+    "host": "localhost"
+  }
+}
