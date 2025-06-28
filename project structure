@@ -1,0 +1,72 @@
+voice-todo-app/
+├── index.html          # Main HTML file
+├── css/
+│   └── styles.css      # Stylesheet
+├── js/
+│   └── app.js          # JavaScript functionality
+├── README.md           # Project documentation
+├── package.json        # Project metadata
+└── screenshots/        # App screenshots
+    ├── voice-input.png
+    ├── task-list.png
+    └── mobile-view.png
+🚀 Quick Start
+
+Clone or download the project files
+Open index.html in a modern browser
+Allow microphone access when prompted
+Start adding tasks with voice or keyboard!
+
+📋 File Contents
+1. index.html
+Main HTML structure with semantic markup for accessibility.
+2. css/styles.css
+Modern styling with:
+
+Glassmorphism design
+Responsive layout
+Smooth animations
+Accessibility features
+
+3. js/app.js
+Core functionality including:
+
+Web Speech API integration
+Task management
+Local storage
+Error handling
+
+4. README.md
+Complete documentation with:
+
+Setup instructions
+Feature overview
+Browser compatibility
+Usage guide
+
+5. package.json
+Project metadata for easy deployment and sharing.
+🎯 Features
+
+Voice Recognition: Real-time speech-to-text conversion
+Manual Input: Keyboard alternative for accessibility
+Task Management: Add, complete, and delete tasks
+Persistent Storage: Data saved locally
+Responsive Design: Works on all devices
+Modern UI: Clean, accessible interface
+
+🌐 Browser Support
+
+✅ Chrome/Chromium (Full support)
+✅ Edge (Full support)
+✅ Safari (Full support)
+⚠️ Firefox (Manual input only)
+
+📱 Mobile Ready
+The app is fully responsive and works great on mobile devices, though voice recognition support varies by mobile browser.
+🔧 Customization
+Easy to customize:
+
+Colors and themes in styles.css
+Voice recognition settings in app.js
+UI text and labels in index.html
